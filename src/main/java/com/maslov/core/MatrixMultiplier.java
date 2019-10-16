@@ -11,7 +11,8 @@ public interface MatrixMultiplier {
 	float[][] multiplySequential(float[][] matrixA, float[][] matrixB);
 
 	/**
-	 * Method designed to multiply two matrices in iterative way parallel
+	 * Method designed to multiply two matrices in iterative way in parallel
+	 * by dividing the rows calculation of resulting matrix between available processors
 	 *
 	 * @param matrixA multiplicand matrix
 	 * @param matrixB multiplier matrix
