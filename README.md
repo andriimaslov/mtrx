@@ -1,1 +1,1 @@
-**My humble implementation of matrix multiplying task**
+**matrix multiplying task**
